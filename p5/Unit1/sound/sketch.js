@@ -22,8 +22,6 @@ function draw() {
 
   text("Can't Help Falling In Love With You - Haley Reinhart Cover", width / 2, height / 2);
 
-
-
 }
 
 function mouseReleased() {
@@ -32,4 +30,8 @@ function mouseReleased() {
   } else {
     song1.loop();
   }
+}
+
+function touchStarted() {
+  getAudioContext().resume();
 }
