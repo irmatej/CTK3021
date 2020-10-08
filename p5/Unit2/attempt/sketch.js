@@ -13,7 +13,7 @@ var f;
 
   textFont(f); 
   textSize(60); 
-  text("One person's craziness,", width / 2, height / 2);   
+  text("dragon", width / 2, height / 2);   
 
 
 } 
