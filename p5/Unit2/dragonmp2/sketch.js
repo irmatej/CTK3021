@@ -1,6 +1,6 @@
 var state = 0;
 var timer = 0;
-var f, f1;
+var f, ff;
 var mic;
 var vol;
 var x = 0;
@@ -9,12 +9,12 @@ function setup() {
   createCanvas(600, 500);
 
   f = loadFont("assets/DD.ttf");
-  f1 = loadFont("assets/V.ttf");
+  ff = loadFont("assets/V.ttf");
 
   mic = new p5.AudioIn();
   mic.start();
 
- 
+
   textAlign(CENTER);
 }
 
@@ -376,7 +376,7 @@ function draw() {
       rect(27, 12, 550, 60);
 
       //text
-      textFont(f1);
+      textFont(ff);
       textSize(20);
       fill("white");
       text("QUICK!! You must scare the dragon away before it attacks!\n YELL!!", 300, 35);
@@ -768,7 +768,7 @@ function draw() {
       fill(119, 7, 7);
       rect(27, 12, 550, 60);
 
-      textFont(f1);
+      textFont(ff);
       fill('white');
       textSize(20);
       text("You were too late and he engulfed you in fire, OOPS\n try again", 300, 35);
@@ -909,7 +909,7 @@ function draw() {
       fill(119, 7, 7);
       rect(27, 12, 550, 60);
 
-      textFont(f1);
+      textFont(ff);
       fill('white');
       textSize(20);
       text("Awwwww you hurt his feelings...\nleave him alone", 300, 35);
