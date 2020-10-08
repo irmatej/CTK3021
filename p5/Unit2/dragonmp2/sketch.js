@@ -9,11 +9,11 @@ function setup() {
   createCanvas(600, 500);
 
   f = loadFont("assets/DD.ttf");
-  ff = loadFont("assets/V.ttf");
+  ff = loadFont("assets/M.otf");
 
   mic = new p5.AudioIn();
   mic.start();
- 
+
 
   textAlign(CENTER);
 }
