@@ -33,6 +33,8 @@ function draw() {
       text("The", width / 2, height / 2 - 60);
       textSize(60);
       text("Dragon Quest", width / 2, height / 2);
+      textSize(12);
+       text("Click button below", width / 2, height / 2+32);
       break;
 
       //normal dragon
