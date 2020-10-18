@@ -1,6 +1,6 @@
 let cars = [];
 var img1;
-
+ 
 function setup() {
   createCanvas(500, 500);
 
@@ -11,7 +11,7 @@ function setup() {
   img1 = loadImage("assets/Danek.jpg")
   noStroke();
 }
- 
+
 function draw() {
   background('white');
 image(img1, width/2, height/2, 300, 500);
