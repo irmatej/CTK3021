@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background('grey');
+  background('white');
 image(img1, width/2, height/2, 300, 500);
   cars.push(new Car());
 
