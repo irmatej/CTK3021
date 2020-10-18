@@ -11,7 +11,7 @@ function setup() {
   img1 = loadImage("assets/Danek.jpg")
   noStroke();
 }
- 
+
 function draw() {
   background('white');
 image(img1, width/2, height/2, 300, 500);
@@ -26,10 +26,8 @@ image(img1, width/2, height/2, 300, 500);
   }
 }
 
-
-
 class Car {
-
+  
   constructor() {
     //attributes
     this.pos = createVector(120, 200);
