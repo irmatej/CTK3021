@@ -8,7 +8,7 @@ function setup() {
   //   cars.push(new Car());
   // }
   imageMode(CENTER);
-  img1 = loadImage("assets/Danek.jpg")
+  img1 = loadImage("assets/Danek.jpg");
   noStroke();
 }
 
@@ -27,7 +27,7 @@ image(img1, width/2, height/2, 300, 500);
 }
 
 class Car {
-  
+
   constructor() {
     //attributes
     this.pos = createVector(120, 200);
