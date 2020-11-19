@@ -17,12 +17,12 @@
 
 
 	<button id="request" style="height: 200px; width: 200px; margin: 50px auto;">Click this button to request gyro and accel permission</button>
-
+ 
 	<script>
 		// if (location.protocol != 'https:') {
 		//  location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 		// }
- 
+
 		function requestT() {
 
 			if (typeof(DeviceMotionEvent) !== 'undefined' && typeof(DeviceMotionEvent.requestPermission) === 'function') {
