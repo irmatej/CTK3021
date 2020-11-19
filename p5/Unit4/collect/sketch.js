@@ -10,6 +10,7 @@ var yPosition = 0;
 var beach;
 var cars = [];
 var frogPos;
+let f;
 
 
 function setup() {
@@ -32,7 +33,7 @@ function setup() {
 
   // load any images you need
   //bunnyImage = loadImage("assets/bunny.jpg");
-  beach = loadImage("assets/beach.jpg");
+  f = loadFont("assets/letter.ttf");
   imageMode(CENTER);
   rectMode(CENTER);
   noStroke();
@@ -78,6 +79,7 @@ function draw() {
   fill('white');
   textSize(70);
   textAlign(CENTER);
+  textFont(f);
   text("EAT the goldfish!", width / 2, 600, windowWidth - 200, windowHeight - 200);
 
 
