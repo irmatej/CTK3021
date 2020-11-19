@@ -33,7 +33,6 @@ function setup() {
 
   // load any images you need
   //bunnyImage = loadImage("assets/bunny.jpg");
-  beach = loadImage("assets/beach.jpg");
   f = loadFont("assets/letter.ttf");
   imageMode(CENTER);
   rectMode(CENTER);
@@ -42,7 +41,7 @@ function setup() {
 
 function draw() {
 
-  background(beach); // sky
+  background(0,87,191); // sky
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -82,7 +81,7 @@ function draw() {
   textAlign(CENTER);
   textFont(f);
   text("EAT the goldfish!", width / 2, 600, windowWidth - 200, windowHeight - 200);
-
+ 
 
   // Debugging information -- take this out when you're ready for production!
   // Just a bunch of text commands to display data coming in from addEventListeners
