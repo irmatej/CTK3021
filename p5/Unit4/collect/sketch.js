@@ -85,7 +85,7 @@ function draw() {
 
   // Debugging information -- take this out when you're ready for production!
   // Just a bunch of text commands to display data coming in from addEventListeners
-
+ 
   // textAlign(LEFT);
   // textSize(20);
   // fill('black');
